@@ -20,3 +20,4 @@ Soru 3: Bir metodun private, protected ya da public olması kavramlarını açı
  ```
 - Soyutlama üst sınıfın adlandırılmış bir yöntemi olduğu, ancak görevleri tamamlamak için alt sınıflarına ihtiyaç duyması durumudur. örnek olarak her insanın ses telleri ortaktır fakat frekansları değişiktir veya her marka bir ürün üretir ama slognı farklıdır gibi örneklerde aslında soyutlama kullanılabilir. Soyut sınıfta tanımlanan tüm methodlar aynı olacak şekilde inherit edilen tüm childlarda kullanılmalıdır.
 
+![Alt text](https://github.com/EnUygunPatikaBootCamp/week1-efeibrahimm/blob/main/umlDiagram.png "Optional title")
