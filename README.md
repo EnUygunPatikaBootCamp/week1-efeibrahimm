@@ -20,4 +20,14 @@ Soru 3: Bir metodun private, protected ya da public olması kavramlarını açı
  ```
 - Soyutlama üst sınıfın adlandırılmış bir yöntemi olduğu, ancak görevleri tamamlamak için alt sınıflarına ihtiyaç duyması durumudur. örnek olarak her insanın ses telleri ortaktır fakat frekansları değişiktir veya her marka bir ürün üretir ama slognı farklıdır gibi örneklerde aslında soyutlama kullanılabilir. Soyut sınıfta tanımlanan tüm methodlar aynı olacak şekilde inherit edilen tüm childlarda kullanılmalıdır.
 
-![Alt text](https://github.com/EnUygunPatikaBootCamp/week1-efeibrahimm/blob/main/umlDiagram.png "Optional title")
+```
+Bir e-ticaret projesinde, sisteme giriş yapacak farklı kullanıcı türleri mevcuttur. Bu türler üç başlıkta toplanabilir. Müşteri (Client), Satıcı (Merchant), Sistem Yöneticisi (Admin) Her başlıktaki kullanıcı türleri için aşağıdaki koşullar mevcuttur:
+
+Tüm kullanıcıların TCKN numarası olmalıdır.
+Tüm kullanıcıların ad soyad ve e-posta bilgisi olmalıdır.
+Müşterilerin eşsiz (unique) müşteri no olmalıdır.
+Satıcıların eşsiz (unique) satici no olmalıdır.
+Sistem yöneticilerinin kullanıcı idsi olmalıdır.
+Satıcıların cep telefonu onaylı olup olmadığı bilgisi olmalıdır.
+```
+![Alt text](https://github.com/EnUygunPatikaBootCamp/week1-efeibrahimm/blob/main/diagram.jpg?raw=true "UML Diagram")
